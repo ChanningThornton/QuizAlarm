@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE4BBE0826BB2DE4005D2205 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BBE0726BB2DE4005D2205 /* Alarm.swift */; };
+		BE4BBE0A26BB2EDD005D2205 /* AlarmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BBE0926BB2EDD005D2205 /* AlarmManager.swift */; };
+		BE4BBE0D26BB3001005D2205 /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BBE0C26BB3001005D2205 /* AddAlarmViewController.swift */; };
+		BE4BBE0F26BB3323005D2205 /* AlarmListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BBE0E26BB3323005D2205 /* AlarmListTableViewController.swift */; };
+		BE4BBE1126BB3E37005D2205 /* FileDataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BBE1026BB3E37005D2205 /* FileDataAdapter.swift */; };
+		BE4BBE1326BC143D005D2205 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BBE1226BC143D005D2205 /* Utility.swift */; };
+		BE4BBE1626BC16D2005D2205 /* Mozart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE4BBE1526BC16D2005D2205 /* Mozart.mp3 */; };
+		BE649F5326BC265E002C10FC /* MathQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE649F5226BC265E002C10FC /* MathQuizViewController.swift */; };
 		D7C6F7E726B8D330009198C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C6F7E626B8D330009198C1 /* AppDelegate.swift */; };
 		D7C6F7E926B8D330009198C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C6F7E826B8D330009198C1 /* SceneDelegate.swift */; };
 		D7C6F7EB26B8D330009198C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C6F7EA26B8D330009198C1 /* ViewController.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE4BBE0726BB2DE4005D2205 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		BE4BBE0926BB2EDD005D2205 /* AlarmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmManager.swift; sourceTree = "<group>"; };
+		BE4BBE0C26BB3001005D2205 /* AddAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
+		BE4BBE0E26BB3323005D2205 /* AlarmListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListTableViewController.swift; sourceTree = "<group>"; };
+		BE4BBE1026BB3E37005D2205 /* FileDataAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDataAdapter.swift; sourceTree = "<group>"; };
+		BE4BBE1226BC143D005D2205 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		BE4BBE1526BC16D2005D2205 /* Mozart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mozart.mp3; path = "../../../../../Documents/Documents - Michael’s MacBook Pro/Otterbein/Office Class/BF16_ISM/Project Grader Exercises/Additional Exercise Files/Mozart.mp3"; sourceTree = "<group>"; };
+		BE649F5226BC265E002C10FC /* MathQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuizViewController.swift; sourceTree = "<group>"; };
 		D7C6F7E326B8D330009198C1 /* Quiz Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C6F7E626B8D330009198C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7C6F7E826B8D330009198C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +53,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE4BBE0B26BB2FD9005D2205 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7C6F7EA26B8D330009198C1 /* ViewController.swift */,
+				BE4BBE0C26BB3001005D2205 /* AddAlarmViewController.swift */,
+				BE4BBE0E26BB3323005D2205 /* AlarmListTableViewController.swift */,
+				BE649F5226BC265E002C10FC /* MathQuizViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BE4BBE1426BC16A9005D2205 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BE4BBE1526BC16D2005D2205 /* Mozart.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		D7C6F7DA26B8D32F009198C1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +91,18 @@
 		D7C6F7E526B8D330009198C1 /* Quiz Alarm */ = {
 			isa = PBXGroup;
 			children = (
+				BE4BBE1426BC16A9005D2205 /* Sounds */,
+				BE4BBE0B26BB2FD9005D2205 /* View Controllers */,
 				D7C6F7E626B8D330009198C1 /* AppDelegate.swift */,
 				D7C6F7E826B8D330009198C1 /* SceneDelegate.swift */,
-				D7C6F7EA26B8D330009198C1 /* ViewController.swift */,
 				D7C6F7EC26B8D330009198C1 /* Main.storyboard */,
 				D7C6F7EF26B8D33D009198C1 /* Assets.xcassets */,
 				D7C6F7F126B8D33D009198C1 /* LaunchScreen.storyboard */,
 				D7C6F7F426B8D33D009198C1 /* Info.plist */,
+				BE4BBE0726BB2DE4005D2205 /* Alarm.swift */,
+				BE4BBE0926BB2EDD005D2205 /* AlarmManager.swift */,
+				BE4BBE1026BB3E37005D2205 /* FileDataAdapter.swift */,
+				BE4BBE1226BC143D005D2205 /* Utility.swift */,
 			);
 			path = "Quiz Alarm";
 			sourceTree = "<group>";
@@ -126,6 +166,7 @@
 			files = (
 				D7C6F7F326B8D33D009198C1 /* LaunchScreen.storyboard in Resources */,
 				D7C6F7F026B8D33D009198C1 /* Assets.xcassets in Resources */,
+				BE4BBE1626BC16D2005D2205 /* Mozart.mp3 in Resources */,
 				D7C6F7EE26B8D330009198C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +178,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4BBE0D26BB3001005D2205 /* AddAlarmViewController.swift in Sources */,
 				D7C6F7EB26B8D330009198C1 /* ViewController.swift in Sources */,
+				BE4BBE1326BC143D005D2205 /* Utility.swift in Sources */,
 				D7C6F7E726B8D330009198C1 /* AppDelegate.swift in Sources */,
+				BE4BBE1126BB3E37005D2205 /* FileDataAdapter.swift in Sources */,
 				D7C6F7E926B8D330009198C1 /* SceneDelegate.swift in Sources */,
+				BE4BBE0826BB2DE4005D2205 /* Alarm.swift in Sources */,
+				BE4BBE0A26BB2EDD005D2205 /* AlarmManager.swift in Sources */,
+				BE4BBE0F26BB3323005D2205 /* AlarmListTableViewController.swift in Sources */,
+				BE649F5326BC265E002C10FC /* MathQuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +335,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUF4WKFYV4;
 				INFOPLIST_FILE = "Quiz Alarm/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUF4WKFYV4;
 				INFOPLIST_FILE = "Quiz Alarm/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
