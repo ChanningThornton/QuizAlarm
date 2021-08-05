@@ -13,8 +13,8 @@
 		BE4BBE0F26BB3323005D2205 /* AlarmListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BBE0E26BB3323005D2205 /* AlarmListTableViewController.swift */; };
 		BE4BBE1126BB3E37005D2205 /* FileDataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BBE1026BB3E37005D2205 /* FileDataAdapter.swift */; };
 		BE4BBE1326BC143D005D2205 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BBE1226BC143D005D2205 /* Utility.swift */; };
-		BE4BBE1626BC16D2005D2205 /* Mozart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE4BBE1526BC16D2005D2205 /* Mozart.mp3 */; };
 		BE649F5326BC265E002C10FC /* MathQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE649F5226BC265E002C10FC /* MathQuizViewController.swift */; };
+		BE7208C526BC88AE008A4D4E /* Mozart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE7208C426BC88AE008A4D4E /* Mozart.mp3 */; };
 		D7C6F7E726B8D330009198C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C6F7E626B8D330009198C1 /* AppDelegate.swift */; };
 		D7C6F7E926B8D330009198C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C6F7E826B8D330009198C1 /* SceneDelegate.swift */; };
 		D7C6F7EB26B8D330009198C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C6F7EA26B8D330009198C1 /* ViewController.swift */; };
@@ -30,8 +30,8 @@
 		BE4BBE0E26BB3323005D2205 /* AlarmListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListTableViewController.swift; sourceTree = "<group>"; };
 		BE4BBE1026BB3E37005D2205 /* FileDataAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDataAdapter.swift; sourceTree = "<group>"; };
 		BE4BBE1226BC143D005D2205 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
-		BE4BBE1526BC16D2005D2205 /* Mozart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mozart.mp3; path = "../../../../../Documents/Documents - Michael’s MacBook Pro/Otterbein/Office Class/BF16_ISM/Project Grader Exercises/Additional Exercise Files/Mozart.mp3"; sourceTree = "<group>"; };
 		BE649F5226BC265E002C10FC /* MathQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuizViewController.swift; sourceTree = "<group>"; };
+		BE7208C426BC88AE008A4D4E /* Mozart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mozart.mp3; sourceTree = "<group>"; };
 		D7C6F7E326B8D330009198C1 /* Quiz Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C6F7E626B8D330009198C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7C6F7E826B8D330009198C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		BE4BBE1426BC16A9005D2205 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				BE4BBE1526BC16D2005D2205 /* Mozart.mp3 */,
+				BE7208C426BC88AE008A4D4E /* Mozart.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -165,8 +165,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C6F7F326B8D33D009198C1 /* LaunchScreen.storyboard in Resources */,
+				BE7208C526BC88AE008A4D4E /* Mozart.mp3 in Resources */,
 				D7C6F7F026B8D33D009198C1 /* Assets.xcassets in Resources */,
-				BE4BBE1626BC16D2005D2205 /* Mozart.mp3 in Resources */,
 				D7C6F7EE26B8D330009198C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
