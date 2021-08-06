@@ -38,6 +38,7 @@ class MathQuizViewController: UIViewController, UITextFieldDelegate {
             // https://codewithchris.com/avaudioplayer-tutorial/
             if let sound = Bundle.main.path(forResource: "Mozart", ofType: "mp3") {
                 self.player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound))
+                self.player?.numberOfLoops = -1 // loop forever
                 self.player?.play()
             }
         }

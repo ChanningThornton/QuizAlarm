@@ -19,13 +19,27 @@ class AlarmManager {
     var count: Int { alarms.count }
     
     var nextAlarm: Alarm? {
-        
-        if alarms.count > 0 {
-            return alarms[0]
-        }
-        else {
+
+        if alarms.count == 0 {
             return nil
         }
+        
+        var smallestTime = Double.greatestFiniteMagnitude
+        var nextAlarm: Alarm? = nil
+        
+        let now = Date()
+        
+        for alarm in alarms {
+            let diff = now.differenceInSecondsIgnoringDate(alarm.time)
+            
+            print("\(alarm.time) :: \(diff)")
+            if diff > 0 && diff < smallestTime {
+                smallestTime = diff
+                nextAlarm = alarm
+            }
+        }
+        
+        return nextAlarm
     }
 
     private init() {
